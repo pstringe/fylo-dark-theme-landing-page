@@ -30,25 +30,22 @@ export default Features;
 const elements = [
   {
     image: "/icon-access-anywhere.svg",
-    title: "Access your files, anywhere",
-    text: `The ability to use a smartphone, tablet, or
-    computer to access your account means your files follow you everywhere.`,
+    title: "Talent Platform for Companies and Contractors",
+    text: `Advanced Search helps companies to find top-talent, mirco-interaction UI helps freelancers stand out and earn top dollar.`,
   },
   {
     image: "/icon-security.svg",
-    title: "Access your files, anywhere",
-    text: `2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.`,
+    title: "Trusted Professionals",
+    text: `Our platform is built on trust. We make it easy to verify contractors users and only allow high-quality projects on our platform.`,
   },
   {
     image: "/icon-collaboration.svg",
-    title: "Real-time collaboration",
-    text: `Securely share files and folders with friends, family and colleagues for live collaboration. No email
-    attachments required.`,
+    title: "Direct Interactions",
+    text: `Instead of going though an agency, our platform allows companies and contractors to interact directly, cutting out the middle man`,
   },
   {
     image: "/icon-any-file.svg",
-    title: "Real-time collaboration",
-    text: `Whether you're sharing holidays photos or work
-    documents, Fylo has you covered allowing for all file types to be securely stored and shared.`,
+    title: "Get your money's worth",
+    text: "Agencies take up to half of what contractors could be earning, no middle-man means more money in your pocket"
   },
 ];
