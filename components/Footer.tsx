@@ -12,8 +12,8 @@ const Footer: FC = () => {
   return (
     <footer className={styles.main}>
       <Image
-        src="/logo.svg"
-        alt="Fylo Logo"
+        src="/limber-logo.svg"
+        alt="Limber Logo"
         width={176}
         height={152}
         objectFit="contain"
