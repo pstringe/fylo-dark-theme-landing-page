@@ -12,8 +12,8 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>
-          Frontend Mentor | Fylo landing page with dark theme and features grid
+        <title> 
+         Get Limber
         </title>
         {/* Just wanted to add a description, ain't gonna bother writing this out */}
         <meta name="description" content="Fylo" />
