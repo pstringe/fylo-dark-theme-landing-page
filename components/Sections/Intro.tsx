@@ -17,12 +17,9 @@ const Intro = () => (
       objectFit="contain"
       priority
     />
-    <h3>
-      {HEADING_1}
-    </h3>
-    <h3>
-      {HEADING_2}
-    </h3>
+    <h1>
+      {`${HEADING_1}, ${HEADING_2}`}
+    </h1>
     <h1>
       {HEADING_3}
     </h1>

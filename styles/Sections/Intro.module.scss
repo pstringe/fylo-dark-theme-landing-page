@@ -11,10 +11,9 @@
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100% auto;
-  white-space: pre-line;
   h1,
   p {
-    max-width: 37ch;
+    max-width: 60ch;
   }
   button {
     @include button;

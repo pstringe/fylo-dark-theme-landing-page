@@ -16,14 +16,16 @@ const Home: NextPage = () => {
          Get Limber
         </title>
         {/* Just wanted to add a description, ain't gonna bother writing this out */}
-        <meta name="description" content="Fylo" />
+        <meta name="description" content="Limber" />
       </Head>
       <Navbar />
       <main>
         <Intro />
+        {/*
         <Features />
         <Productivity />
         <Reviews />
+        */}
         <Form />
         <Footer />
       </main>
