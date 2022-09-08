@@ -9,14 +9,15 @@ const Navbar = () => {
         <a tabIndex={0} title="Go to the Homepage">
           <Image
             objectFit="contain"
-            src="/logo.svg"
-            width={80}
-            height={24}
-            alt="Fylo Logo"
+            src="/limber-logo.svg"
+            width={160}
+            height={48}
+            alt="Limber Logo"
             priority
           />
         </a>
       </Link>
+      {/*
       <ul>
         <li>
           <Link href="#">
@@ -34,6 +35,7 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
+    */}
     </nav>
   );
 };

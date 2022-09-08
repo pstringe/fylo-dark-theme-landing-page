@@ -8,17 +8,20 @@ import {
   IoLogoInstagram,
 } from "react-icons/io5";
 
+const EMAIL_ADDRESS = "stringerpoitier@gmail.com";
+
 const Footer: FC = () => {
   return (
     <footer className={styles.main}>
       <Image
-        src="/logo.svg"
-        alt="Fylo Logo"
+        src="/limber-logo.svg"
+        alt="Limber Logo"
         width={176}
         height={152}
         objectFit="contain"
       />
       <div className={styles.lgFlexMain}>
+        {/*
         <address>
           <div className={styles.flex}>
             <Icon src="location" />
@@ -28,14 +31,18 @@ const Footer: FC = () => {
             </p>
           </div>
           <div className={styles.wrapper}>
+            
             <div className={styles.flex}>
               <Icon src="phone" />
               <a href="tel:+1-543-123-4567">+1-543-123-4567</a>
             </div>
+            
+
             <div className={styles.flex}>
               <Icon src="email" />
-              <a href="mailto:example@fylo.com">example@fylo.com</a>
+              <a href={`mailto:${EMAIL_ADDRESS}`}>{EMAIL_ADDRESS}</a>
             </div>
+            
           </div>
         </address>
         <nav aria-label="Footer Navigation">
@@ -43,6 +50,7 @@ const Footer: FC = () => {
           <br />
           <Links from={-3} to={links.length} />
         </nav>
+        {/*
         <nav aria-label="Social Links">
           <Link href="#">
             <a role="link" aria-label="Facebook">
@@ -60,6 +68,7 @@ const Footer: FC = () => {
             </a>
           </Link>
         </nav>
+        */}
       </div>
     </footer>
   );
