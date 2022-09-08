@@ -5,7 +5,7 @@ const HEADING_1 = `Freelancers Earn Top Dollar`;
 const HEADING_2 = `Comapanies Get Top Talent`
 const HEADING_3 = `No Middle Man`
 
-const SECTION_1_PARAGRAPH = "Limber connects companies with financial proffessionals. As a contractor keep 90%. of your earnings. As a company, get the best talent for your projects.";
+const SECTION_1_PARAGRAPH = "Limber connects companies with financial proffessionals. Contractors keep 90% of their earnings. Companies, get access to top talent";
 
 const Intro = () => (
   <section aria-labelledby="section1-title" className={styles.main}>
@@ -26,7 +26,7 @@ const Intro = () => (
     <p>
       {SECTION_1_PARAGRAPH}
     </p>
-    <button type="button">Get Started</button>
+    <a href="#emailForm"><button type="button">Get Started</button></a>
   </section>
 );
 

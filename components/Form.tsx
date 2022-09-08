@@ -15,14 +15,16 @@ const Form: FC = () => {
   }
 
   return (
-    <section aria-label="Early access" className={styles.wrapper}>
+    <section aria-label="Early access" id="emailForm" className={styles.wrapper}>
       <form className={styles.form} onSubmit={handleSubmit}>
-        <h1>Get early access today</h1>
+        <h1>Sign Up For Early Access</h1>
+        {/*
         <p>
           It only takes a minute to sign up and our free starter tier is
           extremely generous. If you have any questions, our support team would
           be happy to help you.
         </p>
+      */}
         <div className={styles.inputWrapper}>
           <div>
             <input
