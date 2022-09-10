@@ -26,7 +26,7 @@ async function fetchNewSignups() {
     filter: {
       or: [
         {
-          property: 'Added On',
+          property: 'Created time',
           date: {
             after: fetchAfterDate,
           },
