@@ -1,11 +1,8 @@
 import Image from "next/image";
 import styles from "@styles/Sections/Intro.module.scss";
 
-const HEADING_1 = `Freelancers Earn Top Dollar`;
-const HEADING_2 = `Comapanies Get Top Talent`
-const HEADING_3 = `No Middle Man`
-
-const SECTION_1_PARAGRAPH = "Limber connects companies with financial proffessionals. Contractors keep 100% of their earnings. Companies, get access to top talent";
+const HEADING_1 = `We connect accounting and finance freelancers directly with businesses`;
+const SECTION_1_PARAGRAPH = "Freelancers get top rates, keep 100% of their earnings while businesses save 20-100% without paying service fees and markups";
 
 const Intro = () => (
   <section aria-labelledby="section1-title" className={styles.main}>
@@ -18,10 +15,7 @@ const Intro = () => (
       priority
     />
     <h1>
-      {`${HEADING_1}, ${HEADING_2}`}
-    </h1>
-    <h1>
-      {HEADING_3}
+      {HEADING_1}
     </h1>
     <p>
       {SECTION_1_PARAGRAPH}
