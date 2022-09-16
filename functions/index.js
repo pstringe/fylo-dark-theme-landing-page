@@ -7,9 +7,7 @@ async function addEmail(email) {
   const notion = new Client({
     auth: NOTION_API_TOKEN,
     logLevel: LogLevel.DEBUG,
-  });
-
-  console.log({notion})
+  }
 
   await notion.pages.create({
     parent: {

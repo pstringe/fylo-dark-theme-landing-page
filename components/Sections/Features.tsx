@@ -30,22 +30,22 @@ export default Features;
 const elements = [
   {
     image: "/icon-access-anywhere.svg",
-    title: "Talent Platform for Companies and Contractors",
-    text: `Advanced Search helps companies to find top-talent, mirco-interaction UI helps freelancers stand out and earn top dollar.`,
+    title: "On-demand talent platform",
+    text: `Swipe, get matched and start chatting right away. Keep it on platform or off. Up to you.`,
   },
   {
     image: "/icon-security.svg",
     title: "Trusted Professionals",
-    text: `Our platform is built on trust. We make it easy to verify contractors users and only allow high-quality projects on our platform.`,
+    text: `Professionals are vetted with background checks and it runs continuously when working on project.`,
   },
   {
     image: "/icon-collaboration.svg",
-    title: "Direct Interactions",
-    text: `Instead of going though an agency, our platform allows companies and contractors to interact directly, cutting out the middle man`,
+    title: "No Middleman",
+    text: `Don't go through a middleman. No longer do you need to pay 20-100% in rate markups or service fees.`,
   },
   {
     image: "/icon-any-file.svg",
-    title: "Get your money's worth",
-    text: "Agencies take up to half of what contractors could be earning, no middle-man means more money in your pocket"
+    title: "Full project support",
+    text: "We handle time logging, invoicing, payment, issuing 1099, project support for a monthly membership fee"
   },
 ];

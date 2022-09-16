@@ -1,8 +1,8 @@
 import Image from "next/image";
 import styles from "@styles/Sections/Intro.module.scss";
 
-const HEADING_1 = `We connect accounting and finance freelancers directly with businesses`;
-const SECTION_1_PARAGRAPH = "Freelancers get top rates, keep 100% of their earnings while businesses save 20-100% without paying service fees and markups";
+const HEADING_1 = `We connect accounting and finance freelancers directly with businesses.`;
+const SECTION_1_PARAGRAPH = "We remove the middleman. Freelancers make more. Businesses get the best of the freelancer's work without paying service fees and mark ups.";
 
 const Intro = () => (
   <section aria-labelledby="section1-title" className={styles.main}>
