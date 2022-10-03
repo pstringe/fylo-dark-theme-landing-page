@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "@styles/Sections/Intro.module.scss";
+import Form from "../Form";
 
 const HEADING_1 = `We connect accounting and finance freelancers directly with businesses.`;
 const SECTION_1_PARAGRAPH = "We remove the middleman. Freelancers make more. Businesses get the best of the freelancer's work without paying service fees and mark ups.";
@@ -20,7 +21,7 @@ const Intro = () => (
     <p>
       {SECTION_1_PARAGRAPH}
     </p>
-    <a href="#emailForm"><button type="button">Get Started</button></a>
+    <Form />
   </section>
 );
 
